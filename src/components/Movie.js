@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Movie.css";
 
-function Movie({ id, title, year, rating, runtime, genres, summary, poster }) {
+// rating, runtime,
+function Movie({ id, title, year, genres, summary, poster }) {
   return (
     <Link
       to={{
