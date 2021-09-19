@@ -12,9 +12,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navigation />
-      <Route path="/" exact={true} component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/movie/:id" component={Detail} />
+      <Route
+        path={`${process.env.PUBLIC_URL}/`}
+        exact={true}
+        component={Home}
+      />
+      <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
+      <Route path={`${process.env.PUBLIC_URL}/movie/:id`} component={Detail} />
     </BrowserRouter>
   );
 }

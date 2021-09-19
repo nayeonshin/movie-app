@@ -5,8 +5,8 @@ import "./Navigation.css";
 function Navigation() {
   return (
     <div className="nav">
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+      <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
+      <Link to={`${process.env.PUBLIC_URL}/about`}>About</Link>
     </div>
   );
 }
