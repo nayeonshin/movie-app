@@ -1,3 +1,3 @@
 # Movie App
 
-ReactJS Fundamentals
+[Movie App](https://nayeonshin.dev/movie-app/) is a simple React app that lists movies from YTS.
