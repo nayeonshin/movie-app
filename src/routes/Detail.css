@@ -9,18 +9,26 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 10px;
 }
 
 #movie-title {
   font-size: 2rem;
-  margin-top: 50px;
   text-align: center;
+}
+
+.movie-details__poster {
+  margin: 1rem;
 }
 
 .movie-details__text {
   flex-direction: column;
   justify-content: center;
-  margin-left: 2rem;
+  margin: 1rem;
+}
+
+.movie-details__text > span {
+  margin-bottom: 5px;
 }
 
 .text__summary {
@@ -29,4 +37,11 @@
 
 .text__genres {
   flex-direction: column;
+}
+
+@media screen and (max-width: 1090px) {
+  .movie-details {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
 }
