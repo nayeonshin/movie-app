@@ -19,7 +19,7 @@ class Detail extends React.Component {
           <h1 id="movie-title">{location.state.title}</h1>
           <div className="movie-details">
             <img
-              alt="Poster"
+              alt={location.state.title}
               className="movie-details__poster"
               src={location.state.poster}
             />
