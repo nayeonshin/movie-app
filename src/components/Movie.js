@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 import "./Movie.css";
 
-// rating, runtime,
 function Movie({ id, title, year, genres, summary, poster }) {
   return (
     <Link
