@@ -9,6 +9,10 @@
   padding: 20px;
 }
 
+.movies .movie:hover {
+  transform: scale(1.01);
+}
+
 .movies .movie a {
   color: inherit;
   display: grid;
