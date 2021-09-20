@@ -1,0 +1,18 @@
+#movie-title {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.movie-details,
+.movie-details__text {
+  display: flex;
+}
+
+.movie-details__text {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text__summary {
+  max-width: 800px;
+}
