@@ -10,7 +10,7 @@ function Movie({ id, title, year, genres, summary, poster }) {
   return (
     <Link
       to={{
-        pathname: `/movie/${id}`,
+        pathname: `${process.env.PUBLIC_URL}/movie/${id}`,
         state: {
           year,
           title,
