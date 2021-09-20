@@ -1,19 +1,32 @@
-#movie-title {
-  margin-top: 40px;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+.movie-container,
+.movie-details,
+.movie-details__text,
+.text__genres {
+  display: flex;
 }
 
-.movie-details,
-.movie-details__text {
-  display: flex;
+.movie-container {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#movie-title {
+  font-size: 2rem;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .movie-details__text {
   flex-direction: column;
   justify-content: center;
+  margin-left: 2rem;
 }
 
 .text__summary {
   max-width: 800px;
+}
+
+.text__genres {
+  flex-direction: column;
 }

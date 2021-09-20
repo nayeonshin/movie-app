@@ -15,17 +15,21 @@ class Detail extends React.Component {
     const { location } = this.props;
     if (location.state) {
       return (
-        <>
+        <section className="movie-container">
           <h1 id="movie-title">{location.state.title}</h1>
           <div className="movie-details">
             <img alt="Poster" src={location.state.poster} />
             <div className="movie-details__text">
               <span>{location.state.year}</span>
-              <span>{location.state.genres}</span>
+              <div className="text__genres">
+                {location.state.genres.map((genre) => {
+                  return <span key={genre}>{genre}</span>;
+                })}
+              </div>
               <p className="text__summary">{location.state.summary}</p>
             </div>
           </div>
-        </>
+        </section>
       );
     } else {
       return null;
