@@ -9,6 +9,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin-top: 2.5rem;
   padding: 10px;
 }
 
@@ -40,6 +41,10 @@
 }
 
 @media screen and (max-width: 1090px) {
+  .movie-container {
+    margin-top: 0;
+  }
+
   .movie-details {
     flex-direction: column;
     margin-bottom: 5rem;
