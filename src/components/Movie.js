@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 import "./Movie.css";
 
-function Movie({ id, title, year, genres, summary, poster }) {
+function Movie({ genres, id, poster, summary, title, year }) {
   return (
     <Link
       to={{
         pathname: `${process.env.PUBLIC_URL}/movie/${id}`,
         state: {
-          year,
-          title,
-          summary,
-          poster,
           genres,
+          poster,
+          summary,
+          title,
+          year,
         },
       }}
     >

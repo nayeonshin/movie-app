@@ -35,15 +35,15 @@ class Home extends React.Component {
           <div className="movies">
             {movies.map((movie) => (
               <Movie
-                key={movie.id}
+                genres={movie.genres}
                 id={movie.id}
-                title={movie.title}
-                year={movie.year}
+                key={movie.id}
+                poster={movie.medium_cover_image}
                 rating={movie.rating}
                 runtime={movie.runtime}
-                genres={movie.genres}
                 summary={movie.summary}
-                poster={movie.medium_cover_image}
+                title={movie.title}
+                year={movie.year}
               />
             ))}
           </div>
