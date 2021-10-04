@@ -40,8 +40,6 @@ Movie.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   year: PropTypes.number.isRequired,
-  rating: PropTypes.number.isRequired,
-  runtime: PropTypes.number.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
   summary: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
