@@ -2,7 +2,20 @@
 
 Movie App is a simple React app that lists movies from YTS.
 
-![Loading page](https://github.com/nayeonshin/movie-app/blob/master/assets/loading-page.png)
+## Pages
+
+### Loading Page
+
+![Loading Page](https://github.com/nayeonshin/movie-app/blob/master/assets/loading-page.png)
+
+### Homepage
+
 ![Homepage](https://github.com/nayeonshin/movie-app/blob/master/assets/homepage.png)
-![Detail page](https://github.com/nayeonshin/movie-app/blob/master/assets/detail-page.png)
-![About page](https://github.com/nayeonshin/movie-app/blob/master/assets/about-page.png)
+
+### Detail Page
+
+![Detail Page](https://github.com/nayeonshin/movie-app/blob/master/assets/detail-page.png)
+
+### About Page
+
+![About Page](https://github.com/nayeonshin/movie-app/blob/master/assets/about-page.png)
