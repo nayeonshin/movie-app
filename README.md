@@ -19,3 +19,4 @@ Movie App is a simple React app that lists movies from YTS.
 ### About Page
 
 ![About Page](/assets/about-page.png)
+
