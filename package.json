@@ -17,9 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,14 +37,12 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nayeonshin.github.io/movie-app/",
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.7",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.2",
-    "gh-pages": "^3.2.3",
     "prettier": "^2.4.1"
   }
 }
