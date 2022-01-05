@@ -4,7 +4,7 @@ Movie App is a simple React app that lists movies from YTS.
 
 ## Pages
 
-### Loading Page
+### Loading page
 
 ![Loading Page](/assets/loading-page.png)
 
@@ -12,11 +12,11 @@ Movie App is a simple React app that lists movies from YTS.
 
 ![Homepage](/assets/homepage.png)
 
-### Detail Page
+### Detail page
 
 ![Detail Page](/assets/detail-page.png)
 
-### About Page
+### About page
 
 ![About Page](/assets/about-page.png)
 
